@@ -1,3 +1,10 @@
+## Description
+
+A purpose driven module. If you've wanted to use `kubectl` from inside a Kubernetes pod to describe resources of the cluster itself, but not use AWS credentials, this module may help. This module creates an IAM policy that gives the associated IAM User or Role the right to `DescribeCluster`. 
+
+Works nicely/originally intended to work in conjunction with 
+https://github.com/terraform-aws-modules/terraform-aws-iam/tree/master/modules/iam-eks-role - This AWS module associates IAM roles to Kube Service Accounts on EKS.
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
